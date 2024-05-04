@@ -108,10 +108,10 @@ enum rr_petal_id
     rr_petal_id_wax,
     rr_petal_id_sand,
     rr_petal_id_mint,
-    rr_petal_id_cactus,
-    rr_petal_id_gold,
     rr_petal_id_rice,
-    rr_petal_id_horn,
+    rr_petal_id_meat,
+    rr_petal_id_starfish,
+    rr_petal_id_jelly,
     rr_petal_id_max
 };
 
@@ -129,10 +129,8 @@ enum rr_mob_id
     rr_mob_id_meteor,
     rr_mob_id_quetzalcoatlus,
     rr_mob_id_edmontosaurus,
-    rr_mob_id_kelp,
-    rr_mob_id_seagull,
-    rr_mob_id_kingmackarel,
-    rr_mob_id_seasnail,
+    rr_mob_id_pect,
+    rr_mob_id_moss,
     rr_mob_id_beehive,
     rr_mob_id_ant,
     rr_mob_id_spider,
