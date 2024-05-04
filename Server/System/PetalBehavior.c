@@ -315,6 +315,16 @@ static void system_flower_petal_movement_logic(
             physical->friction = 0.4;
             break;
         }
+        case rr_petal_id_meat:
+        {
+            if ((player_info->input & 3) == 0)
+                break;
+            system_petal_detach(simulation, petal, player_info, outer_pos,
+                                inner_pos, petal_data);
+            petal->effect_delay = 500;
+            physical->friction = 0.8;
+            break;
+        }
         case rr_petal_id_mint:
         {
             EntityIdx mob_to_heal = rr_simulation_find_nearest_friend(
